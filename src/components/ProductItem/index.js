@@ -32,11 +32,11 @@ const ProductItem = props => {
       <div className="productItem-mini">
         <h1 className="product-item-head">{title}</h1>
         <div className='product-mini'>
-            <p>{category} </p>
-        <p>Rs. {price}/-</p>
+            <p><span className='spaning'>Category:</span>{category} </p>
+        <p><span className='spaning'>Price:</span>Rs. {price}/-</p>
         </div>
         
-        <p className='description'>{description}</p>
+        <p className='description'><span className='spaning'>Product Details:</span>{description}</p>
         
       </div>
     </li>

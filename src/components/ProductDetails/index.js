@@ -98,8 +98,8 @@ class ProductDetails extends Component {
 
     return (
       
-        <div className="book-details-container">
-          <img className="book-details-image" alt={title} src={image} />
+        <div className="product-details-container">
+          <img className="product-details-image" alt={title} src={image} />
           
             <h1 className="title" key={title}>
             <span className='spaning-1'>Product Name: </span>Product Name:{title}

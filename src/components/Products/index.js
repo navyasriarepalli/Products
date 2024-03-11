@@ -115,7 +115,7 @@ class Products extends Component {
 
   
 
-  renderBooks = () => {
+  renderProducts = () => {
     const {apiStatus} = this.state
     switch (apiStatus) {
       case apiStatusConstants.success:
@@ -136,10 +136,11 @@ class Products extends Component {
       
         
         <div className="bg-prodct">
+          <h1 className='head'>Products</h1>
           
             
             
-              <div className="book">{this.renderBooks()}</div>
+              <div >{this.renderProducts()}</div>
             
           </div>
           

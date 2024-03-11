@@ -33,3 +33,30 @@
   .description{
     font-size: 18px;
   }
+  .spaning{
+    display: none;
+  }
+  @media screen and (max-width: 600px) {
+    .productItem-cont{
+      width: 80vw;
+      border-radius: 4px;
+      background-color: white;
+      box-shadow: 2px;
+      margin-bottom: 5%;
+      
+    }
+    .product-mini{
+      display: flex;
+      flex-direction: column;
+    }
+    .product-item-img{
+      width: 75vw;
+    }
+    .product-mini{
+      margin: 0px;
+    }
+    .spaning{
+      font-size: 18px;
+      display: block;
+    }
+  }
