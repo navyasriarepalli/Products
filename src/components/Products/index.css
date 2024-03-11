@@ -1,0 +1,14 @@
+.products-list-cont{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+.bg-prodct{
+    
+    padding-top: 2%;
+    
+
+}
